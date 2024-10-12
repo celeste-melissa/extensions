@@ -21,7 +21,7 @@ def media_type_check(media):
         case _:
             print("application/octet-stream")
 
-#main function
+# main function
 def main():
     media_type = input("File name: ").lower().strip()
     media_type_check(media_type)
